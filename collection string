@@ -1,0 +1,22 @@
+class JavaCollection1 
+{       
+public static void main(String args[])
+{ 
+    //Creating arraylist
+    
+ArrayList<String> list=new ArrayList<String>();  
+
+list.add("chennai");
+list.add("trichy");  
+list.add("banglore");  
+list.add("trichy");  
+list.add("salem");
+
+//Traversing list through Iterator  
+
+Iterator itr=list.iterator();  
+ while(itr.hasNext()){  
+System.out.println(itr.next());  
+ }
+}  
+} 
